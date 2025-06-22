@@ -1,14 +1,14 @@
-# 📌 Automation: Workday to Research Administration System Integration
+# 📌 Automation: Workday to OurApp Integration
 
 **Summary:**  
-This automation synchronizes new and updated employee records from Workday to a Research Administration System (RAS), ensuring that HR data is always up-to-date for research project management and compliance.
+This automation synchronizes new and updated employee records from Workday to OurApp, ensuring that HR data is always up-to-date for management and compliance.
 
 ---
 
 ## 🔧 Tools Involved
 
 - Workday API
-- Research Administration System API
+- OurApp API
 - Optional: Zapier, Postman, Node.js
 
 ---
