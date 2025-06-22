@@ -1,0 +1,15 @@
+title: Workday to Research Administration System Sync
+description: "Synchronizes employee records from Workday to a Research Administration System (RAS) for up-to-date HR and compliance data."
+author: demo@example.com
+tags:
+  - workday
+  - researchadmin
+  - api
+  - automation
+level: advanced
+type: scheduled
+systems:
+  - workday
+  - researchadmin
+  - nodejs
+template_url: https://zapier.com/shared/zap/abc987

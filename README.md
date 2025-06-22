@@ -1,16 +1,15 @@
-# 📌 Automation: [Name of Integration]
+# 📌 Automation: Workday to Research Administration System Integration
 
 **Summary:**  
-Brief description of what this automation does.  
-_Example: Creates a new OurApp entry when a Salesforce Opportunity is marked “Closed Won”._
+This automation synchronizes new and updated employee records from Workday to a Research Administration System (RAS), ensuring that HR data is always up-to-date for research project management and compliance.
 
 ---
 
 ## 🔧 Tools Involved
 
-- OurApp API
-- [Other system] (e.g. Salesforce, Gmail, Google Sheets)
-- Optional: Zapier, Make, Postman, Python, Node.js
+- Workday API
+- Research Administration System API
+- Optional: Zapier, Postman, Node.js
 
 ---
 
@@ -18,4 +17,34 @@ _Example: Creates a new OurApp entry when a Salesforce Opportunity is marked “
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/ourapp-integrations/this-repo.git
+   git clone https://github.com/ourapp-integrations/workday-researchadmin-api-automation-template.git
+   ```
+2. **Set up environment variables**
+   ```bash
+   cp .env.example .env
+   # Fill in your Workday and RAS API credentials
+   ```
+3. **Run the automation**
+   ```bash
+   node src/main.js
+   ```
+4. **Deploy (optional)**
+   You can host this on AWS Lambda, Google Cloud Functions, or any Node server.
+
+---
+
+📎 **Related Resources**
+- [Workday API Documentation](https://community.workday.com/api)
+- [Research Admin System API Docs](https://researchadmin.example.com/api-docs)
+- [Zapier Template](zapier/zap-template-url.txt)
+- [Postman Collection](postman/workday-ras-example.postman_collection.json)
+
+---
+
+### 🧠 Metadata
+This repo includes an `automation.yaml` file for catalog indexing.
+
+---
+
+🙋 **Support & Questions**
+Open an issue, or ask in the Integration Community.

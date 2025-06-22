@@ -1,21 +1,10 @@
-# 📌 Automation: [Name of Integration]
+# Workday–Research Admin System Integration Docs
 
-**Summary:**  
-Brief description of what this automation does.  
-_Example: Creates a new OurApp entry when a Salesforce Opportunity is marked “Closed Won”._
+Welcome to the documentation site for the Workday to Research Administration System API Automation reference project.
 
----
+## Overview
+This site provides detailed guides, architecture diagrams, and usage examples for contributors and users.
 
-## 🔧 Tools Involved
-
-- OurApp API
-- [Other system] (e.g. Salesforce, Gmail, Google Sheets)
-- Optional: Zapier, Make, Postman, Python, Node.js
-
----
-
-## 🚀 How to Use This Automation
-
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/ourapp-integrations/this-repo.git
+- [Setup Guide](../integration-guide.md)
+- [API Reference](api.md)
+- [FAQ](faq.md)

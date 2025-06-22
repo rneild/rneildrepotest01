@@ -1,0 +1,26 @@
+{
+  "info": {
+    "name": "Workday to RAS Example",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Sync Employee to RAS",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Authorization", "value": "Bearer {{RAS_API_KEY}}", "type": "text" }
+        ],
+        "url": {
+          "raw": "{{RAS_API_URL}}/employees",
+          "host": [ "{{RAS_API_URL}}" ],
+          "path": [ "employees" ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": \"WD123\",\n  \"name\": \"Alice Smith\",\n  \"email\": \"alice@univ.edu\",\n  \"department\": \"Biology\",\n  \"status\": \"active\"\n}"
+        }
+      }
+    }
+  ]
+}
