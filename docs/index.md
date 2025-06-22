@@ -35,7 +35,3 @@ It includes:
 * End-to-end automation architecture
 * Sample configurations and payloads
 * Error handling strategies
-
----
-
-Let me know if you want this restyled with custom CSS, icons, light/dark toggle, or live demos embedded.
