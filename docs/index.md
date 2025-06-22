@@ -5,6 +5,6 @@ Welcome to the documentation site for the Workday to Research Administration Sys
 ## Overview
 This site provides detailed guides, architecture diagrams, and usage examples for contributors and users.
 
-- [Setup Guide](../integration-guide.md)
+- [Setup Guide](https://github.com/rneild/rneildrepotest01)
 - [API Reference](api.md)
 - [FAQ](faq.md)
