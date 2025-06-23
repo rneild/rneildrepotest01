@@ -1,5 +1,7 @@
 # 📌 Automation: Workday to OurApp Integration
 
+[← Back to Home](https://rneild.github.io/rneildpagestest/)
+
 **Summary:**  
 This automation synchronizes new and updated employee records from Workday to OurApp, ensuring that HR data is always up-to-date for management and compliance.
 
